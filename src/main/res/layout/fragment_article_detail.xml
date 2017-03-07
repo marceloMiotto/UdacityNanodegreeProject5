@@ -25,11 +25,9 @@
                 <ImageView
                     android:id="@+id/photo"
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
+                    android:layout_height="@dimen/detail_photo_height"
                     android:scaleType="centerCrop"
-                    android:transitionName="@string/transition_article_image"
-                     />
-
+                    />
 
                 <View
                     android:layout_width="match_parent"
