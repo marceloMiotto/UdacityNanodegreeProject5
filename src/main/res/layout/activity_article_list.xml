@@ -7,7 +7,9 @@
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/swipe_refresh_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recycler_view"
@@ -15,11 +17,10 @@
             android:layout_height="match_parent"
             android:clipToPadding="false"
             android:scrollbarStyle="outsideOverlay"
-            android:paddingTop="80dp"
+            android:paddingTop="20dp"
             android:paddingLeft="@dimen/list_side_margin"
             android:paddingRight="@dimen/list_side_margin"
             android:paddingBottom="28dp"
-            app:layout_behavior="@string/appbar_scrolling_view_behavior"
             />
     </android.support.v4.widget.SwipeRefreshLayout>
 
@@ -37,7 +38,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="bottom"
-            app:layout_scrollFlags="scroll|enterAlways"
             >
 
         </android.support.v7.widget.Toolbar>

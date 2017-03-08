@@ -109,7 +109,7 @@
         app:borderWidth="0dp"
         app:elevation="@dimen/fab_elevation"
         app:fabSize="normal"
-        app:pressedTranslationZ="@dimen/fab_press_translation_z"
+        android:stateListAnimator="@drawable/fab_state_list_anim"
         android:contentDescription="@string/action_share"/>
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
